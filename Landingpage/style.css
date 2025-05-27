@@ -1,0 +1,61 @@
+*{
+    background-color:azure;
+    box-sizing:border-box;
+}
+h2,p{
+    text-align:center;
+}
+h1{
+    font-size:36px;
+    text-align:center;
+}
+p{
+    font-size:1.1rem;
+}
+.main-title{
+    color:blue;
+    margin-top:100px;
+}
+.logo{
+    color:black;
+}
+body{
+    margin:0;
+    padding-top:60px;
+}
+#nav-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%; 
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+input[type="submit"] {
+   display:flex;
+   padding:2px 6px;
+   margin:auto;
+   height:2em;
+   border-radius:1px;
+   min-width:150px;
+   border-color:black;
+}
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+@media(max-width:768px){
+    h1{
+        font-size:24px;
+    }
+    #nav-bar{
+        flex-direction:column;
+    }
+    .nav-link{
+        margin:1px 5px;
+    }
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 class="main-title">Interactive Form</h1>
+        <form>
+            <fieldset>
+                <label for="name">Name: <input id="name" name="name" type="text">
+                    <span class="error" id="name-error"></span>
+                </label>
+                <label for="phone">Phone No: <input id="phone" name="phone" type="tel" >
+                <span class="error" id="phone-error"></span></label>
+                <label for="email">Email: <input id="email" name="email" type="email" >
+                <span class="error" id="email-error"></span></label>
+                <label for="password">Password: <input id="password" name="password" type="password">
+                <span class="error" id="password-error"></span></label>
+            </fieldset>
+            <input type="submit" value="Submit"/>
+        </form>
+        <script src="script.js"></script>
+    </body>
+</html>
